@@ -1,27 +1,46 @@
 body {
     font-family: Verdana;
+    background-color: white;
+    color: darkgrey;
 }
 nav {
     display: flex;
+    
     background-color: dodgerblue;
     width: calc(100%-1rem);
     color: white;
-    align-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content:space-around;
+    align-items: center;
+
 
 }
-nav>div {
-display: flex;
 
-align-items: space-around;
-justify-content: end;
-}
-nav{
+
+a {
     text-decoration: none;
-    align-items: stretch;
+    color:white;
+    padding: 1rem;
+   
 }
 
 .special {
     font-weight: bold; 
+}
+
+.create-user {
+    display: flex;
+    border: solid 1px black;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+    width: fit-content;
+    margin: 0;
+   position: absolute;
+   justify-content: center;
+   right: 50%;
+  
+   
 }
 
 

@@ -2,14 +2,12 @@
 <html>
     <head>
         <title>Acme Layout</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type='text/css' href="styles.css">
     </head>
     <body>
 
     <header> 
-        <div class= "logo"> 
 
-        </div>
         <nav>
             <h2>Acme Layout</h2>
             <div class="nav-item-special">
@@ -22,6 +20,31 @@
                 <a href="#"> Contacts</a>
             </div>
         </nav>
+
+        <h1>Users</h1>
+        <div class="create-user">
+            <form>
+                <h2>Create A User</h2>
+                <div>
+                    <label>First Name</label>
+                    <input type="text" value="Jane">
+                </div>
+                <div>
+                    <label>Last Name</label>
+                    <input type="text" value="Doe">
+                </div>
+                <div>
+                    <label>Department</label>
+                    <select id="'department">
+                        <option value="none">None</option>
+                    </select>
+                </div>
+                <input type="reset" value="Clear">
+                <input type="submit" value="Submit">
+            </form>
+            
+
+        </div>
     </header>
        
     </body>
