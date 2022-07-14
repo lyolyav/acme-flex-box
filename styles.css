@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana;
+}
+nav {
+    display: flex;
+    background-color: dodgerblue;
+    width: calc(100%-1rem);
+    color: white;
+    align-content: space-around;
+
+}
+nav>div {
+display: flex;
+
+align-items: space-around;
+justify-content: end;
+}
+nav{
+    text-decoration: none;
+    align-items: stretch;
+}
+
+.special {
+    font-weight: bold; 
+}
